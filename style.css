@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: snow;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.changecolorbtn {
+    width: 300px;
+    height: 70px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .changecolorbtn {
+        width: 250px !important;
+    }
+}
